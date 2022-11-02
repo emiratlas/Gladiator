@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d7b681eb365a64488a83707401de44, type: 3}
+  m_Name: Item 4
+  m_EditorClassIdentifier: 
+  Attackpower: 31
+  ItemName: "Emirin Baltas\u0131"
+  ItemObject: {fileID: 153104, guid: 872c3b78a8c2e2a43910ef57ee342509, type: 3}
+  ShopObject: {fileID: 8723461385235995079, guid: 308f47b9fbae0794e874ea042778d86e, type: 3}
