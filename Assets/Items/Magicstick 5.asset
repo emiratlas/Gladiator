@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1d7b681eb365a64488a83707401de44, type: 3}
-  m_Name: Item 2
+  m_Name: Magicstick 5
   m_EditorClassIdentifier: 
-  Attackpower: 20
-  ItemName: "K\u0131l\u0131c"
-  ItemObject: {fileID: 181534, guid: 13af847dfa6dbe844ba4b7c902f98f67, type: 3}
-  ShopObject: {fileID: 4156110434299851568, guid: 675eee497795f0840b02bd2b58e3f1b1, type: 3}
+  Attackpower: 40
+  MagicPower: 100
+  DefancePower: 30
+  ItemName: "Emirin Asas\u0131"
+  ItemObject: {fileID: 161354, guid: 5def597caa15aea42ac3983f8dac7ad9, type: 3}
+  ShopObject: {fileID: 161354, guid: 5def597caa15aea42ac3983f8dac7ad9, type: 3}

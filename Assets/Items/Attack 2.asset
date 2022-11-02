@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1d7b681eb365a64488a83707401de44, type: 3}
-  m_Name: Item
+  m_Name: Attack 2
   m_EditorClassIdentifier: 
-  Attackpower: 5
-  ItemName: Sopa
-  ItemObject: {fileID: 141714, guid: 90914c334262f7140a0cf37f0b182e5c, type: 3}
-  ShopObject: {fileID: 4404744282492969969, guid: 93105d6454b6ca8449dbfda2a3f513cb, type: 3}
+  Attackpower: 40
+  MagicPower: 0
+  DefancePower: 25
+  ItemName: "B\u0131cak"
+  ItemObject: {fileID: 176486, guid: 00565c6238126424599242cffe0ede5b, type: 3}
+  ShopObject: {fileID: 3402143308451143614, guid: 9a0575de5dbe89f4cbc0ce8e6c2b6c58, type: 3}

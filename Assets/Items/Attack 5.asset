@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1d7b681eb365a64488a83707401de44, type: 3}
-  m_Name: Item 3
+  m_Name: Attack 5
   m_EditorClassIdentifier: 
-  Attackpower: 50
-  ItemName: Balta
-  ItemObject: {fileID: 193736, guid: 1d57899ee20f82343aa0fec3900f9ac2, type: 3}
-  ShopObject: {fileID: 4682359951601104165, guid: a4a67ee374cd55b49bfd8320f880c497, type: 3}
+  Attackpower: 100
+  MagicPower: 0
+  DefancePower: 40
+  ItemName: "Emirin Baltas\u0131"
+  ItemObject: {fileID: 153104, guid: 872c3b78a8c2e2a43910ef57ee342509, type: 3}
+  ShopObject: {fileID: 8723461385235995079, guid: 308f47b9fbae0794e874ea042778d86e, type: 3}

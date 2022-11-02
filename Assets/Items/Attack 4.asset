@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1d7b681eb365a64488a83707401de44, type: 3}
-  m_Name: Item 1
+  m_Name: Attack 4
   m_EditorClassIdentifier: 
-  Attackpower: 10
-  ItemName: "B\u0131cak"
-  ItemObject: {fileID: 176486, guid: 00565c6238126424599242cffe0ede5b, type: 3}
-  ShopObject: {fileID: 3402143308451143614, guid: 9a0575de5dbe89f4cbc0ce8e6c2b6c58, type: 3}
+  Attackpower: 80
+  MagicPower: 0
+  DefancePower: 35
+  ItemName: Balta
+  ItemObject: {fileID: 193736, guid: 1d57899ee20f82343aa0fec3900f9ac2, type: 3}
+  ShopObject: {fileID: 4682359951601104165, guid: a4a67ee374cd55b49bfd8320f880c497, type: 3}

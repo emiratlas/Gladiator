@@ -4,27 +4,31 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ShopSystem : MonoBehaviour
 {
-    [SerializeField] private Item []WitchItem;
+    [SerializeField] private Items []WitchItem;
     [SerializeField] int WitchItemInt;
     public GameObject SelectedItem;
     public GameObject Position;
     public GameObject Createdobje;
     public Text text;
+
+    public Image adimage,apimage,defanceimage;
     void Start()
     {
         SelectedItem = WitchItem[WitchItemInt].ShopObject;
         Createdobje = Instantiate(SelectedItem,Position.transform);
         Createdobje.AddComponent<ObjectExamine>();
-
     }
     void Update()
     {
+        adimage.fillAmount = (WitchItem[WitchItemInt].Attackpower / 100f);
+        apimage.fillAmount = (WitchItem[WitchItemInt].MagicPower / 100f);
+        defanceimage.fillAmount = (WitchItem[WitchItemInt].DefancePower / 100f);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ChangeWeapon();
         }
 
-        text.text = $"Silah İsmi {WitchItem[WitchItemInt].ItemName} Gücü {WitchItem[WitchItemInt].Attackpower}";
+        text.text = $"Silah İsmi {WitchItem[WitchItemInt].ItemName}";
     }
     void ChangeWeapon()
     {
